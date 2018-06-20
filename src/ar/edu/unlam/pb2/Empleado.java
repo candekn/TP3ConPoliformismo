@@ -35,8 +35,8 @@ public class Empleado {
 	}
 	
 	public String brindarDetalles(){
-		return "Nombre completo: " + this.nombre + " " + this.apellido + ". Fecha de nacimiento:" + " " + this.dia + "/" + 
-				this.mes + "/" + this.anio + ". Sueldo: $" + this.salario + ".";
+		return "Cargo: Empleado. Nombre completo: " + getNombre() + " " + getApellido() + ". Fecha de nacimiento:" + " " 
+				+ getDia() + "/" + getMes() + "/" + getAnio() + ". Sueldo: $" + getSalario() + ".";
 	}
 
 	public String getNombre() {

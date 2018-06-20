@@ -18,6 +18,11 @@ public class Gerente extends Empleado{
 	public void setNumeroDeCochera(Integer numeroDeCochera) {
 		this.numeroDeCochera = numeroDeCochera;
 	}
+	@Override
+	public String brindarDetalles(){
+		return "Cargo: Gerente. Nombre completo: " + getNombre() + " " + getApellido() + ". Fecha de nacimiento:" + " " + getDia() + "/" + 
+				getMes() + "/" + getAnio() + ". Sueldo: $" + getSalario() + ". Numero de cochera: " + getNumeroDeCochera() + ".";
+	}
 	
 	
 
